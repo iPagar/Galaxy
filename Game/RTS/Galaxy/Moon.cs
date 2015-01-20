@@ -10,7 +10,7 @@ public class Moon : Planets {
 	protected override void Start () {
 		parentL = transform.parent.gameObject;
 	}
-
+	
 	public override void Initialize(int orbit = 1){
 		speed = ResourceManager.CoffOrbitDeegres / orbit;
 		name = nameGeneration ();
